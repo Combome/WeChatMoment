@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+#source 'https://github.com/私有仓库地址.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'WeChatMoment' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+ use_frameworks!
+ 
+ pod 'Alamofire', '~> 4.7.2'
+ pod 'Moya/RxSwift', '~> 11.0'
+ pod 'RxSwift',    '~> 4.0'
+ pod 'RxCocoa',    '~> 4.0'
+ pod 'SnapKit', '~> 4.0.0'
+ pod 'RxDataSources', '~> 3.0'
+ pod 'MJRefresh', '~> 3.1.15.7'
+# pod 'Aspects'
+# pod 'MJRefresh', '~> 3.1.15.3'
+# pod 'RxRealm'
+
+end
